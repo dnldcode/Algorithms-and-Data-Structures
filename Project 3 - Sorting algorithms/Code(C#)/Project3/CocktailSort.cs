@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project3
 {
-	class CoctailSort
+	class CocktailSort
 	{
 		static public int[] Sort(int[] array)
 		{

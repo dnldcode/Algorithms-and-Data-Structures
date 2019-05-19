@@ -45,7 +45,8 @@
   <ItemGroup>
     <Compile Include="ArrayGenerator.cs" />
     <Compile Include="BubbleSort.cs" />
-    <Compile Include="CoctailSort.cs" />
+    <Compile Include="CocktailSort.cs" />
+    <Compile Include="CountingSort.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

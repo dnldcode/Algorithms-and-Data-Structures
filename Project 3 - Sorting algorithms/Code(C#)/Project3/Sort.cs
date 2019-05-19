@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project3
 {
-	public enum SortType { Insertion, Selection, Bubble, Coctail };
+	public enum SortType { Insertion, Selection, Bubble, Cocktail, Counting, Merge };
 
 	static class Sort
 	{
@@ -20,10 +20,13 @@ namespace Project3
 					return SelectionSort.Sort(array);
 				case SortType.Bubble:
 					return BubbleSort.Sort(array);
-				case SortType.Coctail:
-					return CoctailSort.Sort(array);
+				case SortType.Cocktail:
+					return CocktailSort.Sort(array);
+				case SortType.Counting:
+					return CountingSort.Sort(array);
+				case SortType.Merge:
+					return MergeSort.Sort(array);
 			}
-
 			return null;
 		}
 	}
