@@ -10,7 +10,6 @@ namespace Project3
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(string.Join(", ", MergeSort.Sort(ArrayGenerator.Generate(20, 0, 100, ArraySort.None))));
 		}
 	}
 }
