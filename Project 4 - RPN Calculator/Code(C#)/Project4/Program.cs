@@ -10,8 +10,7 @@ namespace Project4
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(RPNCalculator.InfixToPostfix("2 * ( 3 + 8 ) / 4 "));
-			Console.WriteLine(RPNCalculator.Calculate(RPNCalculator.InfixToPostfix(RPNCalculator.InfixToPostfix("2 * ( 3 + 8 ) / 4 "))));
+
 		}
 	}
 }

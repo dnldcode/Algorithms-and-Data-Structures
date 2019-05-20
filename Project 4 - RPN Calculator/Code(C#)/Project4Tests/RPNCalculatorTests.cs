@@ -32,7 +32,6 @@ namespace Project4.Tests
 
 			Assert.AreEqual(RPNCalculator.InfixToPostfix("2 ^ 3 ^ 4"), "2 3 4 ^ ^");
 			Assert.AreEqual(RPNCalculator.InfixToPostfix("4 * 9 ^ 6"), "4 9 6 ^ *");
-			Assert.AreEqual(RPNCalculator.InfixToPostfix(""), "");
 		}
 
 		[TestMethod()]
